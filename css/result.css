@@ -1,0 +1,33 @@
+#result {
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #0e3e8691;
+}
+
+.resultScore {
+    font-size: 26px;
+}
+
+.resultName {
+    font-size: 26px;
+}
+.resultDesc {
+    font-size: 22px;
+}
+
+.kakao {
+    color: white;
+    background-color: #FEE500;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #96881175;
+}
+
+.kakao:hover, .kakao:focus {
+    background-color: whitesmoke;
+    color: #b8a711;
+}
