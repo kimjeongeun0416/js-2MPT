@@ -7,6 +7,14 @@
     box-shadow: 3px 3px 3px #0e3e8691;
 }
 
+#shareResult {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #0e3e8691;
+}
+
 .resultScore {
     font-size: 26px;
 }
