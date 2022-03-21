@@ -39,3 +39,17 @@
     background-color: whitesmoke;
     color: #b8a711;
 }
+
+.goHome {
+    color: white;
+    background-color: #2176f7;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #1556b65e;
+}
+
+.goHome:hover, .goHome:focus {
+    background-color: whitesmoke;
+    color: #2176f7;
+}
