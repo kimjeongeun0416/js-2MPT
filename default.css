@@ -1,0 +1,121 @@
+* {
+    font-family: 'Nanum Pen Script', cursive;
+}
+body {
+    background-color: #6c9cff;
+}
+
+#main {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 22px;
+}
+
+#qna {
+    display: none;
+}
+
+.qBox {
+    background-color: whitesmoke;
+    text-align: center;
+    _border-radius: 20px;
+    font-size: 24px;
+    width: 100%;
+    box-shadow: 3px 3px 3px #0e3e8691;
+}
+
+.answerList {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: block;
+    border-style: none;
+    width: 80%;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px #0e3e8691;
+}
+
+.answerList:hover, .answerList:focus {
+    background-color: #4689ee91;
+    color: rgb(241, 241, 241);
+}
+
+.status {
+    width: 80%;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.statusBar {
+    height: 100%;
+    border-radius: 20px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: #d6f9ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #d6f9ff 0%, #9ee8fa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d6f9ff 0%,#9ee8fa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d6f9ff 0%,#9ee8fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+}
+
+#result {
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #0e3e8691;
+}
+
+#shareResult {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #0e3e8691;
+}
+
+.resultScore {
+    font-size: 26px;
+}
+
+.resultName {
+    font-size: 26px;
+}
+.resultDesc {
+    font-size: 22px;
+}
+
+.kakao {
+    color: white;
+    background-color: #FEE500;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #96881175;
+}
+
+.kakao:hover, .kakao:focus {
+    background-color: whitesmoke;
+    color: #b8a711;
+}
+
+.goHome {
+    color: white;
+    background-color: #2176f7;
+    font-size: 24px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #1556b65e;
+}
+
+.goHome:hover, .goHome:focus {
+    background-color: whitesmoke;
+    color: #2176f7;
+}
